@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --nome: attr(name);
+    --funcao: attr(function);
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.opcao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container{
+    height: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 8px 0;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.funcionario{
+    height: 70%;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.nome{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    content: var(--nome);
+}
+
+.funcao{
+    font-size: 18px;
+    font-style: normal;
+    content: var(--funcao);
+}
