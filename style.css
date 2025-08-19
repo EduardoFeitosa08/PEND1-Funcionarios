@@ -15,13 +15,13 @@ body{
     place-items: center;
 }
 
-.opcao{
+.container-principal{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-.container{
+.card{
     height: auto;
     width: 200px;
     display: flex;
